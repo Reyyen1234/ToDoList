@@ -23,6 +23,7 @@ function newElement(){
             
             console.log(inputValue)
         }
+     localStorage.setItem(inputValue)
 }
 
 //value bilgimiziçin boşluklarını silip karekter içerip içermediğine bakan bir fonsiyon üretelim
